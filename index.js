@@ -1,5 +1,7 @@
 'use strict'
 
+const globals = require('globals')
+
 module.exports = {
   parserOptions: {
     parser: 'espree',
@@ -9,8 +11,10 @@ module.exports = {
   plugins: ['nebulas'],
   env: {
     es6: true,
-    node: true,
     'nebulas/nvm': true
+  },
+  globals: {
+    ...globals.commonjs
   },
   rules: {
     'nebulas/export': 'error',
