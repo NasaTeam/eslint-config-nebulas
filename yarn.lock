@@ -369,7 +369,7 @@ glob@^7.0.3, glob@^7.0.5, glob@^7.1.2:
 
 globals@^11.7.0:
   version "11.7.0"
-  resolved "https://registry.npmjs.org/globals/-/globals-11.7.0.tgz#a583faa43055b1aca771914bf68258e2fc125673"
+  resolved "http://registry.npm.taobao.org/globals/download/globals-11.7.0.tgz#a583faa43055b1aca771914bf68258e2fc125673"
 
 globby@^5.0.0:
   version "5.0.0"
