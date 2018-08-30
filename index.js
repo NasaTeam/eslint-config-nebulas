@@ -19,6 +19,8 @@ module.exports = {
   rules: {
     'nebulas/export': 'error',
     'nebulas/export-contract': 'error',
+    'nebulas/limited-libs': 'error',
+    'nebulas/no-esm': 'error',
     'no-undef': 'error'
   }
 }
